@@ -169,7 +169,10 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\itemController.cs" />
+    <Compile Include="Controllers\item_categoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\repositoryController.cs" />
     <Compile Include="ExtraFunction\SqlHandler.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -231,6 +234,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\item\" />
+    <Folder Include="Views\item_category\" />
     <Folder Include="Views\repository\" />
   </ItemGroup>
   <ItemGroup>
