@@ -172,6 +172,8 @@
     <Compile Include="Controllers\itemController.cs" />
     <Compile Include="Controllers\item_categoryController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\orderController.cs" />
+    <Compile Include="Controllers\order_itemController.cs" />
     <Compile Include="Controllers\repositoryController.cs" />
     <Compile Include="ExtraFunction\SqlHandler.cs" />
     <Compile Include="Global.asax.cs">
@@ -236,6 +238,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\item\" />
     <Folder Include="Views\item_category\" />
+    <Folder Include="Views\order\" />
+    <Folder Include="Views\order_item\" />
     <Folder Include="Views\repository\" />
   </ItemGroup>
   <ItemGroup>
