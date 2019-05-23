@@ -12,7 +12,7 @@ namespace WebPtoject.ExtraFunction
         
         public string ConnectionString()
         {
-            return (@"server=localhost,1433;database=repository;uid=sa;pwd=123;MultipleActiveResultSets=True;");
+            return (@"Data Source =.; Initial Catalog = repository; User Id=sa;Password=123;Integrated Security=true");
         }
 
         public SqlConnection MySqlConnection()
